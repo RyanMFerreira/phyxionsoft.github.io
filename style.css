@@ -20,7 +20,7 @@ ul {
     list-style: none;
     background: white;
     text-align: center;
-    width: 92%;
+    width: 95%;
     margin: 20px auto 20px auto;
 }
 
@@ -59,22 +59,26 @@ div {
 
 .main {
     display: inline-table;
-    width: 90%;
-    height: 500px;
+    width: 95%;
+    height: 100% * 5;
     margin: auto auto;
+    padding: 1px;
 }
 
 .left {
-    width: 40%;
-    height: 95%;
+    width: 58.5%;
+    height: 100%;
     margin: auto auto;
     float: left;
 }
 
 .right {
-    width: 40%;
-    height: 95%;
-    margin: auto auto;
+    height: auto;
+    background: none;
+    padding: 15px;
+    border-radius: 0;
+    border-left: 1px solid white;
+    width: 20%;
     float: right;
 }
 
@@ -84,26 +88,38 @@ div {
     margin: none;
 }
 
-h2,
+
 h3 {
+    color: blueviolet;
+}
+
+h2 {
+    color: blueviolet;
     border-radius: 10px;
     margin: none;
     padding: 5px;
-    color: blueviolet;
     background: white;
 }
 
 .blocks {
+    padding: 0;
     display: inline-table;
     background-color: white;
-    width: 42%;
-    height: 35%;
+    width: 48px;
+    height: 48px;
     margin: 10px auto auto auto;
+}
+
+.footer {
+    margin-top: 15px;
+    background-color: white;
+    width: 95%;
+    padding: 1px;
 }
 
 footer,
 u {
-    color: white;
+    color: blueviolet;
     margin: 15px;
 }
 
@@ -115,12 +131,14 @@ img {
     width: 60%;
 }
 
-
-.img2 {
-    width: 45%;
-}
-
 .logo_img {
     margin: 10px;
     width: 35%;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    margin: none;
+    padding: 5px;
 }
