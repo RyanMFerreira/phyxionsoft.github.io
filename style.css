@@ -29,11 +29,12 @@ ul li {
 }
 
 ul li a {
+    font-weight: bold;
     border-radius: 0;
     display: block;
     padding: 10px 25px;
-    color: blueviolet;
-    border-bottom: 2px solid blueviolet;
+    color: violet;
+    border-bottom: 2px solid violet;
     text-decoration: none;
 }
 
