@@ -4,7 +4,6 @@
     color: rgb(72, 72, 72);
     text-align: center;
     color: white;
-    border: 1px solid red;
 }
 
 body {
@@ -45,6 +44,7 @@ ul li a:hover {
 }
 
 div {
+    display: inline-block;
     background: rgb(72, 72, 72);
     padding: 15px;
     margin: auto auto;
