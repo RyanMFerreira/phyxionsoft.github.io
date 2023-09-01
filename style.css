@@ -1,9 +1,11 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
     border-radius: 10px;
     color: rgb(72, 72, 72);
     text-align: center;
     color: white;
+    border: 1px solid red;
 }
 
 body {
@@ -28,8 +30,7 @@ ul li {
 }
 
 ul li a {
-    font-size: larger;
-    font-weight: bold;
+    border-radius: 0;
     display: block;
     padding: 10px 25px;
     color: blueviolet;
@@ -38,13 +39,11 @@ ul li a {
 }
 
 ul li a:hover {
-    border-radius: 10px;
     color: gray;
     background: rgb(222, 222, 222);
 }
 
 div {
-    display: inline-block;
     background: rgb(72, 72, 72);
     padding: 15px;
     margin: auto auto;
@@ -64,7 +63,7 @@ div {
 }
 
 .right {
-    width: 45%;
+    width: 40%;
     height: 95%;
     float: right;
     margin: auto auto;
@@ -83,7 +82,8 @@ div {
     margin: none;
 }
 
-h2, h3 {
+h2,
+h3 {
     margin: none;
     padding: 5px;
     color: blueviolet;
@@ -91,7 +91,7 @@ h2, h3 {
 }
 
 .title {
-    width: 90%;
+    width: 80%;
     height: 90%;
     text-align: center;
     margin: auto auto 10px;
@@ -105,10 +105,10 @@ h2, h3 {
 }
 
 .blocks {
+    display: inline-table;
     background-color: white;
     width: 30%;
     height: 35%;
-    float: left;
     margin: 5%;
 }
 
@@ -119,7 +119,7 @@ u {
 }
 
 .img1 {
-    width: 60%;
+    width: 50%;
 }
 
 .img2 {
