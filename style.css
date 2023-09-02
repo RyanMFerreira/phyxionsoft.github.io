@@ -67,7 +67,7 @@ div {
 }
 
 .left {
-    width: 55%;
+    width: 65%;
     margin: auto auto;
     float: left;
 }
@@ -118,10 +118,6 @@ footer,u{
 }
 img {
     border-radius: none;
-}
-
-.img1 {
-    width: 40%;
 }
 
 .logo_img {
