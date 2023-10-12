@@ -2,54 +2,49 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <title>Início</title>
+    <title>PyxisCode</title>
 </head>
 
 <body>
-    <img class="logo_img" src="img/g21405.png" alt="Logo da Empresa">
-    <div class="background_div">
-        <nav>
+    <div class="Background"></div>
+
+    <div class="ProjectsListBackground">
+        <a href="project/run.html">
+            <button class="NewProjectButton">
+                <img class="PlusButton" src="icons/PlusButton.svg" alt="">
+                Novo Projeto
+            </button>
+        </a>
+    </div>
+
+    <div class="TopBar">
+        <div class="TopMenu">
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Anotações</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="sobre/sobre.html">Sobre</a></li>
+                <a href="index.html">
+                    <li>Página Inicial</li>
+                </a>
+                <a href="#">
+                    <li>Sobre</li>
+                </a>
+                <a href="docs/docs.html">
+                    <li>Documentação</li>
+                </a>
             </ul>
-        </nav>
-
-        <div class="main">
-            <div class="left">
-                <h2>Bem-vindo ao Meu Site</h2>
-                <p style="text-align: left;">Olá, seja bem-vindo(a) ao Meu Site! Aqui você encontrará informações e
-                    recursos para aprimorar
-                    seus conhecimentos em tecnologia e desenvolvimento web. Navegue pelas nossas anotações, descubra
-                    diversos softwares úteis e conheça mais sobre o propósito deste site.</p>
-            </div>
-
-            <div class="right">
-                <h2>Indíce</h2>
-                <div class="blocks">
-                    <button>
-                        <h3>Front-End</h3>
-                        <img style="width: 32px;" src="img/html_icon.png">
-                    </button>
-                </div>
-                <div class="blocks">
-                    <button>
-                        <h3>Back-End</h3>
-                        <img style="width: 37px;" src="img/CSharp_Icon.png">
-                    </button>
-                </div>
-            </div>
-
         </div>
-        <footer>© Copyright 2023 PhyxionSoft. Todos os direitos reservados.</footer>
+        <button class="MenuIcon" onclick="toggleMenu()"><img class="MenuIcon" src="icons/Icon.svg" alt=""></button>
+
+        <button class="ProfileIcon"><img class="ProfileIcon" src="icons/ProfileIcon.svg" alt=""></button>
+    </div>
+
+    <div class="Footer">
+        <p style="margin: 0.5%;">Feito por Ryan Ferreira. Contato: <a class="Link"
+                href="mailto: RyanMatheusFerreira@Outlook.Com.Br">RyanMatheusFerreira@Outlook.com.br</a></p>
     </div>
 </body>
 

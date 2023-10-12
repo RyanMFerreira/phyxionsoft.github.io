@@ -1,135 +1,50 @@
-* {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 100%;
-    color: rgb(72, 72, 72);
-    text-align: center;
-    color: white;
-}
-
 body {
-    background-color: black;
-    margin: 0;
+    overflow: hidden;
 }
 
-h2 {
-    margin: 0;
+.ProjectsListBackground {
+    width: 25%;
+    height: 87%;
+    right: 0;
+    top: 8%;
+    position: absolute;
+    background: var(--gray-color);
 }
 
-ul {
-    border-radius: 10px 10px 0 0;
-    padding: 1px;
-    list-style: none;
-    background: white;
+.Footer {
+    width: 100%;
+    height: 5%;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    background: var(--darkest-color);
+}
+
+.NewProjectButton {
+    width: 90%;
+    height: 15%;
+    right: 4%;
+    bottom: 3%;
+    position: absolute;
+    border-radius: 24px;
+    background: var(--accent-color);
     text-align: center;
-    width: 100%;
-    margin: 20px auto auto auto;
-}
-
-ul li {
-    display: inline-block;
-}
-
-ul li a {
-    font-weight: bold;
-    border-radius: 0;
-    display: block;
-    padding: 5px 7px;
-    color: violet;
-    border-bottom: 2px solid violet;
-    text-decoration: none;
-}
-
-ul li a:hover {
-    color: gray;
-    background: rgb(222, 222, 222);
-}
-
-div {
-    background: rgb(72, 72, 72);
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.background_div {
-    background: linear-gradient(blueviolet, darkcyan);
-    border: 0;
-    margin: 0;
-    border-radius: 0;
-}
-
-.main {
-    border-radius: 0;
-    display: inline-table;
-    width: 100%;
-    height: 500px;
-    padding: 0 1px 1px 1px;
-    margin: 0;
-}
-
-.left {
-    width: 55%;
-    margin: auto auto;
-    float: left;
-}
-
-.right {
-    height: 93.4%;
-    background: none;
-    padding: 15px;
-    border-radius: 0;
-    border-left: 2px solid white;
-    width: 20%;
-    float: right;
-    margin: 0;
-}
-
-.image_container {
-    width: 82%;
-    height: 30%;
-    margin: none;
+    font-size: large;
 }
 
 
-h3 {
-    color: blueviolet;
+.PlusButton {
+    width: 10%;
+    right: 80%;
+    bottom: 35%;
+    position: absolute;
 }
 
-h2 {
-    color: blueviolet;
-    border-radius: 10px;
-    margin: none;
-    padding: 5px;
-    background: white;
-}
-
-.blocks {
-    padding: 0;
-    display: inline-table;
-    background-color: white;
-    margin: 10px auto auto auto;
-}
-
-footer,u{
-    background-color: white;
-    color: blueviolet;
-    width: 100%;
-    padding: 10px 1px 10px 1px;
-    border-radius: 0 0 10px 10px;
-}
-img {
-    border-radius: none;
-}
-
-.logo_img {
-    margin: 10px;
-    width: 35%;
-}
-
-button {
-    width: 100%;
-    height: 60%;
-    border-radius: 10px;
-    border: none;
-    margin: none;
-    padding: 5px;
+.Background {
+    width: 75%;
+    height: 87%;
+    left: 0px;
+    top: 8%;
+    position: absolute;
+    background: linear-gradient(135deg, var(--contrast-color), var(--accent-color));
 }
